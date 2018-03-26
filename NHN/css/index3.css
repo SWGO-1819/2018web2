@@ -14,13 +14,14 @@ a{text-decoration:none}
 #mainMenu li:hover a{background-color:skyblue;transition:0.3s;color:black;}
 
 #subContent1{width:500px;height:950px;float:left;}
-#subContent2{width:750px;height:150px;float:right;}
+#subContent2{width:750px;height:100px;float:right;}
 #gonggoMask{width:605px;height:45px;}
 .gonggoBtn{width:300px;height:40px;text-align:center;line-height:40px;background-color:white;float:left;border:1px solid black;font-size:13px;font-weight:bold;}
+#subContent3{width:600px;height:795px;float:right;text-align: center;border-bottom:1px solid black;}
+#subContent3 table{width:600px;height:30px;border-top:1px solid;float:right;}
+#subContent3 tr:first-child td{font-weight:bold;border-bottom:1px solid black;font-size:15px;}
+#subContent3 tr td:first-child{width:200px;height:30px;text-align:left;}
+#subContent3 tr td{width:100px;height:30px;text-align:center;font-size:12px;}
 /*footer*/
-#subContent3{position:relative;width:750px;height:715px;float:right;text-align: center;}
-#subContent3 table{width:650px;height:30px;border-bottom:1px solid black;border-top:1px solid;margin:0 auto;}
-#subContent3 tr:first-child td:first-child{width:250px;height:30px;text-align:left;}
-#subContent3 tr:first-child td{width:100px;height:30px;text-align:center;}
 footer{width:auto;height:100px;background-color:#F2F2F2;text-align:center;font-size:12px;}
 #footer{padding-top:30px;}
