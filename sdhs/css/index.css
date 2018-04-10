@@ -1,0 +1,28 @@
+*{margin:0;padding:0;list-style: none;text-decoration:none;}
+#wrap{margin:0 auto;width:1000px;height:1200px;}
+li {text-align: center;}
+header{width:1000px;height:100px;}
+#logoLogin{width:1000px;height:50px;}
+#mainLogo{float:left;}
+
+#loginPage{position:fixed;margin-top:100px;background-color:black;}
+#loginPage input{height:30px;}
+
+#loginWrap{width:470px;height:50px;float:right;}
+#login{width:210px;height:50px;float:left;line-height:50px;}
+#login li{width:100px;height:50px;float:left;text-align:center;font-size:13px;}
+#login span{width:1px;height:50px;float:left;font-size:13px;}
+#mainSuch{width:250px;height:50px;float:left;}
+#mainSuch form{width:250px;height:50px;line-height:50px;float:left;}
+#such{height:32px;float:left;margin-top:7px;}
+#suchImage{margin-top:7px;float:left;}
+
+#dropMenuWrap{width:1000px;height:50px;position: relative;background-color:#A4A4A4;color:white;}
+#dropMenu{width:800px;height:50px;margin:0 auto;}
+#dropMenu>ul{width:800px;height:50px;float:left;}
+#dropMenu>ul>li{width:200px;height:50px;float:left;text-align:center;line-height:50px;}
+#dropMenu>ul>li>ul>li{width:auto;height:0px;overflow: hidden;}
+#dropMenu>ul>li:hover{height:50px;transition:.5s;background-color:#08298A;}
+#dropMenu>ul>li:hover a{transition:.5s;color:white;}
+#dropMenu>ul>li:hover ul li{height:50px;transition:.5s;background-color:#08298A;color:white;}
+#dropMenu>ul>li>a{color:black;width:100px;}
