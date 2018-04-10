@@ -5,8 +5,10 @@ header{width:1000px;height:100px;}
 #logoLogin{width:1000px;height:50px;}
 #mainLogo{float:left;}
 
-#loginPage{position:fixed;margin-top:100px;background-color:black;}
-#loginPage input{height:30px;}
+#loginPage{width:370px;position:fixed;margin-top:100px;}
+#loginPage input{width:300px;height:30px;}
+#loginPage label{width:200px;height:30px;}
+#idSign_ok{}
 
 #loginWrap{width:470px;height:50px;float:right;}
 #login{width:210px;height:50px;float:left;line-height:50px;}
