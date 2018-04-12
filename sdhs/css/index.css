@@ -1,24 +1,40 @@
-*{margin:0;padding:0;list-style: none;text-decoration:none;}
+*{margin:0;padding:0;list-style: none;text-decoration:none;box-sizing: border-box;}
+*::after{clear: both;}
 #wrap{margin:0 auto;width:1000px;height:1200px;}
 li {text-align: center;}
 header{width:1000px;height:100px;}
 #logoLogin{width:1000px;height:50px;}
 #mainLogo{float:left;}
-
-#loginPage{width:370px;position:fixed;margin-top:100px;}
-#loginPage input{width:300px;height:30px;}
-#loginPage label{width:200px;height:30px;}
-#idSign_ok{}
-
-#loginWrap{width:470px;height:50px;float:right;}
-#login{width:210px;height:50px;float:left;line-height:50px;}
-#login li{width:100px;height:50px;float:left;text-align:center;font-size:13px;}
-#login span{width:1px;height:50px;float:left;font-size:13px;}
+#mask{width:1000px;height:1200px;background-color:black;position:absolute;opacity: 0.8;z-index:1;display:none;}
+/*로그인페이지*/
+#loginPage{width:500px;height:500px;position:fixed;margin-top:100px;margin-left:250px;z-index:2;background-color:white;display:none;}
+.loginHeader{width:500px;height:50px;margin-bottom:30px;}
+#loginPage form{width:500px;height:300px;}
+.loginHeader h1{width:100px;float:left;margin-left:200px;}
+#loginPage dl{width:350px;height:50px;margin:0 auto; margin-bottom:10px;}
+#loginPage input{width:196px;height:30px;}
+#loginPage dd{width:200px;height:50px;float:left;line-height:50px;}
+#loginPage dt{width:150px;height:50px;clear:left;float:left;line-height:50px;}
+.exit{width:50px;height:50px;float:right;clear:right;}
+.sign_ok{width:100px;height:50px;border:0;background-color:#08298A;color:white;font-size:20px;}
+.ok_button{width:500px;height:50px;margin-top:50px;text-align:center;}
+/*회원가입페이지*/
+#sign_upPage{width:500px;height:500px;position:fixed;margin-top:100px;margin-left:250px;z-index:2;background-color:white;display:none;}
+#sign_upPage form{width:500px;height:300px;}
+#sign_upPage dl{width:350px;height:50px;margin:0 auto;margin-bottom:10px;}
+#sign_upPage input{width:196px;height:30px;}
+#sign_upPage dd{width:200px;height:50px;float:left;line-height:50px;}
+#sign_upPage dt{width:150px;height:50px;clear:left;float:left;line-height:50px;}
+/*헤더탑링크*/
+#header_top_linkWrap{width:470px;height:50px;float:right;}
+#header_top_link{width:210px;height:50px;float:left;line-height:50px;}
+#header_top_link li{width:100px;height:50px;float:left;text-align:center;font-size:13px;}
+#header_top_link span{width:1px;height:50px;float:left;font-size:13px;}
 #mainSuch{width:250px;height:50px;float:left;}
 #mainSuch form{width:250px;height:50px;line-height:50px;float:left;}
 #such{height:32px;float:left;margin-top:7px;}
 #suchImage{margin-top:7px;float:left;}
-
+/*드롭다운메뉴*/
 #dropMenuWrap{width:1000px;height:50px;position: relative;background-color:#A4A4A4;color:white;}
 #dropMenu{width:800px;height:50px;margin:0 auto;}
 #dropMenu>ul{width:800px;height:50px;float:left;}
