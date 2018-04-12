@@ -4,30 +4,73 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
 </head>
 <body>
 <div id="wrap">
+   <div id="mask"></div>
     <header>
         <div id="loginPage">
-            <h1>로그인</h1>
+           <div class="loginHeader">
+               <h1>로그인</h1>
+               <img src="../image/x.png" class="exit" alt="exit">
+           </div>
             <form action="">
                 <dl>
-
+                    <dt><label for="idSign_ok">아이디</label></dt>
+                    <dd><input type="text" name="id" id="idSign_ok" placeholder="아이디 입력"></dd>
                 </dl>
-                <label for="idSign_ok">아이디</label><input type="text" name="id" id="idSign_ok" placeholder="아이디 입력">
-                <label for="pwSign_ok">패스워드</label><input type="password" name="pw" id="pwSign_ok" placeholder="비밀번호 입력">
+                <dl>
+                    <dt><label for="pwSign_ok">패스워드</label></dt>
+                    <dd><input type="password" name="pw" id="pwSign_ok" placeholder="비밀번호 입력"></dd>
+                </dl>
+                <div class="ok_button">
+                    <button class="sign_ok">확인</button>
+                </div>
+            </form>
+        </div>
+        <div id="sign_upPage">
+           <div class="loginHeader">
+               <h1>로그인</h1>
+               <img src="../image/x.png" class="exit" alt="exit">
+           </div>
+            <form action="">
+               <dl>
+                    <dt><label for="name">이름</label></dt>
+                    <dd><input type="text" name="pw" id="name" placeholder="이름 입력"></dd>
+                </dl>
+                <dl>
+                    <dt><label for="addr">주소</label></dt>
+                    <dd><input type="text" name="addr" id="addr" placeholder="주소 입력"></dd>
+                </dl>
+                <dl>
+                    <dt><label for="idSign_ok">아이디</label></dt>
+                    <dd><input type="text" name="id" id="idSign_ok" placeholder="아이디 입력"></dd>
+                </dl>
+                <dl>
+                    <dt><label for="pwSign_ok">패스워드</label></dt>
+                    <dd><input type="password" name="pw" id="pwSign_ok" placeholder="비밀번호 입력"></dd>
+                </dl>
+                <dl>
+                    <dt><label for="pwcSign_ok">패스워드 확인</label></dt>
+                    <dd><input type="password" name="pw" id="pwSign_ok"  placeholder="비밀번호 입력"></dd>
+                </dl>
+                <div class="ok_button">
+                    <button class="sign_ok">확인</button>
+                </div>
             </form>
         </div>
         <div id="logoLogin">
             <div id="mainLogo">
                 <img src="http://www.sdh.hs.kr/dggb/module/file/selectImageView.do?atchFileId=182124&fileSn=0" alt="서울디지텍고등학교">
             </div>
-            <div id="loginWrap">
-                <div id="login">
+            <div id="header_top_linkWrap">
+                <div id="header_top_link">
                     <ul>
-                        <li>로그인</li>
+                        <li id="login">로그인</li>
                         <span>|</span>
-                        <li>회원가입</li>
+                        <li id="sign_up">회원가입</li>
                     </ul>
                 </div>
                 <div id="mainSuch">
