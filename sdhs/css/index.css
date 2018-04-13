@@ -44,3 +44,8 @@ header{width:1000px;height:100px;}
 #dropMenu>ul>li:hover a{transition:.5s;color:white;}
 #dropMenu>ul>li:hover ul li{height:50px;transition:.5s;background-color:#08298A;color:white;}
 #dropMenu>ul>li>a{color:black;width:100px;}
+content{width:auto;height:800px;}
+#mainSlide{width:auto;height:300px;overflow:hidden;}
+#mainSlide li{width:auto;height:300px;float:left;}
+#slideImg2{float:left;position:relative;left:1000px;clear:left;}
+#slideImg3{float:left;position:relative;left:-1000px;clear:left;}
