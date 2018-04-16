@@ -13,16 +13,24 @@ $(document).ready(function () {
         $("#sign_upPage").fadeOut('fast');
         $("#mask").fadeOut('fast');
     })
-    /*setInterval(slide());*/
+    $("#notice").click(function () {
+        $("#noticeContent").css("height","100");
+        $("#noticeContent2").css("height","0");
+    })
+    $("#notice2").click(function () {
+        $("#noticeContent").css("height","0");
+        $("#noticeContent2").css("height","100");
+    })
+    setInterval(slide,2000);
 })
 function slide() {
-    $("#mainSlide img").eq(num).animate(function () {
-        left: "+=1000"
+    $("#mainSlide li").eq(num).animate(function () {
+        left: '+=1000';
     })
-    $("#mainSlide img").eq(num-1).animate(function () {
-        left: "-=1000"
+    $("#mainSlide li").eq(num-1).animate(function () {
+        left: '-=1000';
     })
-    $("#mainSlide img").eq(num).animate(function () {
-        left: "0"
+    $("#mainSlide li").eq(num).animate(function () {
+        left: '+=0';
     })
-}
+
