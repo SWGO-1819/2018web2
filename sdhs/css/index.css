@@ -1,6 +1,6 @@
 *{margin:0;padding:0;list-style: none;text-decoration:none;box-sizing: border-box;}
 
-#wrap{margin:0 auto;width:1000px;height:1200px;}
+#wrap{margin:0 auto;width:1000px;height:1050px;}
 li {text-align: center;}
 header{width:1000px;height:100px;}
 #logoLogin{width:1000px;height:50px;}
@@ -32,7 +32,7 @@ header{width:1000px;height:100px;}
 #header_top_link span{width:1px;height:50px;float:left;font-size:13px;}
 #mainSuch{width:250px;height:50px;float:left;}
 #mainSuch form{width:250px;height:50px;line-height:50px;float:left;}
-#such{height:32px;float:left;margin-top:7px;}
+#such{height:36px;float:left;margin-top:7px;}
 #suchImage{margin-top:7px;float:left;}
 /*드롭다운메뉴*/
 #dropMenuWrap{width:1000px;height:50px;position: relative;background-color:#A4A4A4;color:white;}
@@ -45,12 +45,11 @@ header{width:1000px;height:100px;}
 #dropMenu>ul>li:hover ul li{height:50px;transition:.5s;background-color:#08298A;color:white;}
 #dropMenu>ul>li>a{color:black;width:100px;}
 
-content{width:auto;height:800px;}
+#content{width:1000px;height:950px;}
 #mainSlide{width:1000px;height:500px;overflow:hidden;margin-top:10px;}
 #mainSlide > ul {width: 300%; height: 500px;}
 #mainSlide > ul > li {width: 1000px; height: 500px; float: left;}
 #mainSlide > ul > li > img {width: 1000px; height: 500px; float : left;}
-
 
 #downContent{width:1000px;height:400px;float:left;margin-top:10px;}
 #noticeBox{width:600px;;height:200px;;background-color:white;margin:10px;float: left}
@@ -67,7 +66,16 @@ content{width:auto;height:800px;}
 #noticeContent2{width:600px;height:0px;overflow: hidden;}
 .noticeContent td:first-child{width:450px;height:30px}
 .noticeContent2 td:first-child{width:450px;height:30px;}
-.noticeContent td:last-child{width:150px;height:30px;}
-.noticeContent2 td:last-child{width:150px;height:30px;}
-#imgContent{width:400px;height:400px;text-align:center;}
+.noticeContent td:last-child{width:150px;height:30px;text-align:center;}
+.noticeContent2 td:last-child{width:150px;height:30px;text-align:center;}
+#detailed{width:150px;text-align:center;}
+#imgContent{width:380px;height:400px;text-align:center;float:right;}
 
+
+footer{height:150px;background-color:#E6E6E6;}
+#footerWrap{width:1000px;margin:0 auto;}
+#footerP{width:500px;height:50px;line-height:50px;float: initial;background-color:white;text-align:center;}
+#footerP a{color:black;padding:10px;font-size:13px;}
+#footerP2{width:300px;margin:0 auto;}
+#footerP2 p{width:500px;color:#A4A4A4;font-size:13px;}
+#footerP2 p:last-child{font-weight:bold;}
