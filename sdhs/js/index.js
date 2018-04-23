@@ -1,5 +1,9 @@
-num=1;
+num=0;
+fornum=0;
 $(document).ready(function () {
+    var current = 0, max = $("#mainSlide > ul > li").length - 1, width = $("#mainSlide > ul > li").width();
+    console.log(max);
+
     $("#login").click(function () {
         $("#loginPage").fadeIn('fast');
         $("#mask").fadeIn('fast');
@@ -21,12 +25,17 @@ $(document).ready(function () {
         $("#noticeContent").css("height","0");
         $("#noticeContent2").css("height","100");
     })
-    setInterval(slide,2000);
+    function next() {
+        if(current!=max) {
+            current++;
+            slide(current);
+        }else if(current==max){
+            current = 0;
+            slide(current);
+        }
+    }
+    function slide(idx) {
+        $("#mainSlide > ul ").animate({"margin-left" : -width * idx});
+    }
+    setInterval(function() { next(); },2000);
 })
-function slide() {
-    $("#mainSlide li").eq(num).animate({left: -1000}, 600)
-    $("#mainSlide li").eq(num - 1).animate({left: 1000}, 600)
-    $("#mainSlide li").eq(num).animate({left: 0}, 600)
-    num++;
-}
-

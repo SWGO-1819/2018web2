@@ -46,21 +46,24 @@ header{width:1000px;height:100px;}
 #dropMenu>ul>li>a{color:black;width:100px;}
 
 content{width:auto;height:800px;}
-#mainSlide{width:auto;height:500px;overflow:hidden;margin-top:10px;}
-#mainSlide li{width:auto;height:500px;float:left;}
-#slideImg2{float:left;position:relative;clear:left;}
-#slideImg3{float:left;position:relative;clear:left;}
+#mainSlide{width:1000px;height:500px;overflow:hidden;margin-top:10px;}
+#mainSlide > ul {width: 300%; height: 500px;}
+#mainSlide > ul > li {width: 1000px; height: 500px; float: left;}
+#mainSlide > ul > li > img {width: 1000px; height: 500px; float : left;}
+
 
 #downContent{width:1000px;height:400px;float:left;margin-top:10px;}
 #noticeBox{width:800px;;height:200px;;background-color:white;margin:10px;float: left}
 .title>td{font-size:12px;text-align:center;}
+.noticeContent td:first-child{font-size:14px;}
+.noticeContent2 td:first-child{font-size:14px;}
 .noticeContent td:last-child{font-size:14px;}
 .noticeContent2 td:last-child{font-size:14px;}
 #noticeBox th{width:200px;height:30px;text-align: left;font-size:20px;}
-#noticeContent{width:400px;height:100px;overflow: hidden;}
-#noticeContent2{width:400px;height:0px;overflow: hidden;}
-.noticeContent td:first-child{width:300px;height:30px}
-.noticeContent2 td:first-child{width:300px;height:30px;}
-.noticeContent td:last-child{width:100px;height:30px;}
-.noticeContent2 td:last-child{width:100px;height:30px;}
+#noticeContent{width:550px;height:100px;overflow: hidden;}
+#noticeContent2{width:550px;height:0px;overflow: hidden;}
+.noticeContent td:first-child{width:400px;height:30px}
+.noticeContent2 td:first-child{width:400px;height:30px;}
+.noticeContent td:last-child{width:200px;height:30px;}
+.noticeContent2 td:last-child{width:200px;height:30px;}
 
