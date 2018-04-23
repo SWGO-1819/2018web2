@@ -10,7 +10,7 @@ header{width:1000px;height:100px;}
 #loginPage{width:500px;height:500px;position:fixed;margin-top:100px;margin-left:250px;z-index:2;background-color:white;display:none;}
 .loginHeader{width:500px;height:50px;margin-bottom:30px;}
 #loginPage form{width:500px;height:300px;}
-.loginHeader h1{width:100px;float:left;margin-left:200px;}
+.loginHeader h1{width:200px;float:left;margin-left:150px;text-align:center;}
 #loginPage dl{width:350px;height:50px;margin:0 auto; margin-bottom:10px;}
 #loginPage input{width:196px;height:30px;}
 #loginPage dd{width:200px;height:50px;float:left;line-height:50px;}

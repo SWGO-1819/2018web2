@@ -27,5 +27,6 @@ function slide() {
     $("#mainSlide li").eq(num).animate({left: -1000}, 600)
     $("#mainSlide li").eq(num - 1).animate({left: 1000}, 600)
     $("#mainSlide li").eq(num).animate({left: 0}, 600)
+    num++;
 }
 
