@@ -52,11 +52,14 @@ header{width:1000px;height:100px;}
 #mainSlide > ul > li > img {width: 1000px; height: 500px; float : left;}
 
 #downContent{width:1000px;height:400px;float:left;margin-top:10px;}
-#noticeBox{width:600px;;height:200px;;background-color:white;margin:10px;float: left}
+#noticeBox{width:600px;;height:190px;;background-color:white;margin:10px;float: left}
 .title{width:500px;}
 #notice{width:100px;}
 #notice2{width:350px;}
+#notice a{color:#08298A;}
+#notice2 a{color:black;}
 .title>td{font-size:12px;text-align:center;}
+#detailed a{color:black;}
 .noticeContent td:first-child{font-size:14px;}
 .noticeContent2 td:first-child{font-size:14px;}
 .noticeContent td:last-child{font-size:14px;}
@@ -64,18 +67,28 @@ header{width:1000px;height:100px;}
 #noticeBox th{height:30px;text-align: left;font-size:17px;}
 #noticeContent{width:600px;height:100px;overflow: hidden;}
 #noticeContent2{width:600px;height:0px;overflow: hidden;}
-.noticeContent td:first-child{width:450px;height:30px}
+.noticeContent td:first-child{width:450px;height:30px;}
 .noticeContent2 td:first-child{width:450px;height:30px;}
 .noticeContent td:last-child{width:150px;height:30px;text-align:center;}
 .noticeContent2 td:last-child{width:150px;height:30px;text-align:center;}
 #detailed{width:150px;text-align:center;}
 #imgContent{width:380px;height:400px;text-align:center;float:right;}
 
+#ss{width:600px;height:200px;float:left;}
+#ss img{width:300px;height:200px;}
+#ss2{width:300px;height:20px;float:right;border-bottom:1px solid black;}
+#ss2 th{width:50px;height:20px;float:right;line-height:20px;}
+0/*#ss2 td{font-size:13px;border-top:1px solid black;border-bottom:1px solid black;}*/
+#ss3 td:first-child{width:50px;height:50px;float:right;line-height:50px;}
+#ss3{width:300px;height:200px;float:right;clear:right;font-size:13px;}
+#ssWrap{width:300px;height:150px;float:right;border:1px solid black;}
+#ss>img{border:1px solid black;}
 
 footer{height:150px;background-color:#E6E6E6;}
-#footerWrap{width:1000px;margin:0 auto;}
-#footerP{width:500px;height:50px;line-height:50px;float: initial;background-color:white;text-align:center;}
+#footerWrap{width:1000px;height:100px;margin:0 auto;padding-top:10px;}
+#footerWrap img{float:left;}
+#footerP{width:500px;height:42px;line-height:42px;background-color:white;text-align:center;float:left;margin-left:30px;}
 #footerP a{color:black;padding:10px;font-size:13px;}
-#footerP2{width:300px;margin:0 auto;}
+#footerP2{width:500px;height:50px;margin:0 auto;}
 #footerP2 p{width:500px;color:#A4A4A4;font-size:13px;}
 #footerP2 p:last-child{font-weight:bold;}

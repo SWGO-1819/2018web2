@@ -17,13 +17,17 @@ $(document).ready(function () {
         $("#sign_upPage").fadeOut('fast');
         $("#mask").fadeOut('fast');
     })
-    $("#notice").click(function () {
+    $("#notice a").click(function () {
         $("#noticeContent").css("height","100");
         $("#noticeContent2").css("height","0");
+        $("#notice a").css("color","#08298A");
+        $("#notice2 a").css("color","black");
     })
-    $("#notice2").click(function () {
+    $("#notice2 a").click(function () {
         $("#noticeContent").css("height","0");
         $("#noticeContent2").css("height","100");
+        $("#notice a").css("color","black");
+        $("#notice2 a").css("color","#08298A");
     })
     function next() {
         if(current!=max) {
