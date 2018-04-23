@@ -24,13 +24,8 @@ $(document).ready(function () {
     setInterval(slide,2000);
 })
 function slide() {
-    $("#mainSlide li").eq(num).animate(function () {
-        left: '+=1000';
-    })
-    $("#mainSlide li").eq(num-1).animate(function () {
-        left: '-=1000';
-    })
-    $("#mainSlide li").eq(num).animate(function () {
-        left: '+=0';
-    })
+    $("#mainSlide li").eq(num).animate({left: -1000}, 600)
+    $("#mainSlide li").eq(num - 1).animate({left: 1000}, 600)
+    $("#mainSlide li").eq(num).animate({left: 0}, 600)
+}
 
