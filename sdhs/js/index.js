@@ -1,5 +1,8 @@
-num=0;
-fornum=0;
+var num2=0;
+var num1=1;
+var img=$("#imgContent img");
+var img_li=$("#imgContent li");
+var max = img_li.length-1;
 $(document).ready(function () {
     var current = 0, max = $("#mainSlide > ul > li").length - 1, width = $("#mainSlide > ul > li").width();
     console.log(max);
@@ -41,5 +44,20 @@ $(document).ready(function () {
     function slide(idx) {
         $("#mainSlide > ul ").animate({"margin-left" : -width * idx});
     }
-    setInterval(function() { next(); },2000);
+    setInterval(function() { next(); },3000);
+    setInterval(slide2,3000);
+    setInterval(dote,3000);
 })
+function slide2() {
+    $("#imgContent li").eq(num1).animate({left:-310},0);
+    $("#imgContent li").eq(num1-1).animate({left:310},500);
+    $("#imgContent li").eq(num1).animate({left:0},500);
+    num1++;
+    if(num1>=3){
+        num1=0;
+    }
+}
+function dote() {
+    $(".dote").eq(num1).css({"background-color":"#08298A"})
+    $(".dote").eq(num1-1).css({"background-color":"black"})
+}
