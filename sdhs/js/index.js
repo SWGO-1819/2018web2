@@ -3,6 +3,11 @@ var num1=1;
 var img=$("#imgContent img");
 var img_li=$("#imgContent li");
 var max = img_li.length-1;
+
+var d=new Date();
+var month= d.getMonth()+1;
+var year= d.getFullYear();
+var day= d.getDate();
 $(document).ready(function () {
     var current = 0, max = $("#mainSlide > ul > li").length - 1, width = $("#mainSlide > ul > li").width();
     console.log(max);
@@ -44,6 +49,38 @@ $(document).ready(function () {
     function slide(idx) {
         $("#mainSlide > ul ").animate({"margin-left" : -width * idx});
     }
+    $("#month").html(year+"-"+month);
+    $("#day").html(day);
+    $("#day_right").click(function () {
+        day++;
+        var day_length=new Date(year, month, 0).getDate();
+        if(day>day_length){
+            month++;
+            day=1;
+            $("#month").html(year+"-"+month);
+            if(month>12){
+                year++;
+                month=1;
+                $("#month").html(year+"-"+month);
+            }
+        }
+        $("#day").html(day);
+    })
+    $("#day_left").click(function () {
+        day--;
+        var day_length=new Date(year, month-1, 0).getDate();
+        if(day<1){
+            month--;
+            day=day_length;
+            $("#month").html(year+"-"+month);
+            if(month<1){
+                year--;
+                month=12;
+                $("#month").html(year+"-"+month);
+            }
+        }
+        $("#day").html(day);
+    })
     setInterval(function() { next(); },3000);
     setInterval(slide2,3000);
     setInterval(dote,3000);
