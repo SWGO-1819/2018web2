@@ -1,0 +1,40 @@
+*{margin:0;padding:0;list-style:none;}
+#background{width:648px;height:818px;background-image:url("bg_stadium.png");}
+.own{width:50px;height:50px;border-radius:50px;border:1px solid white;float:left;position:absolute;line-height:50px;text-align:center;color:white;}
+#team1>li>ul>li{background-color:red;}
+#team2>li>ul>li{background-color:black;}
+.num{width:50px;height:50px;font-size:15px;}
+.name{width:70px;height:30px;font-size:10px;margin:-10px 0 0 -10px;}
+#team1{
+    width:100%;height:50%;
+}
+#team1>li ,#team2>li {width:100%;height:100%;}
+.position{
+    width:100%;height:25%;
+}
+#c1{margin-left:299px;margin-top:25px;}
+#c2{margin-left:99px;margin-top:25px;}
+#c3{margin-left:299px;margin-top:25px;}
+#c4{margin-left:499px;margin-top:25px;}
+#c5{margin-left:75px;margin-top:25px;}
+#c6{margin-left:225px;margin-top:25px;}
+#c7{margin-left:375px;margin-top:25px;}
+#c8{margin-left:525px;margin-top:25px;}
+#c9{margin-left:99px;margin-top:25px;}
+#c10{margin-left:299px;margin-top:25px;}
+#c11{margin-left:499px;margin-top:25px;}
+
+#team2{
+    width:100%;height:50%;
+}
+#c12{margin-left:299px;margin-top:25px;}
+#c13{margin-left:99px;margin-top:25px;}
+#c14{margin-left:299px;margin-top:25px;}
+#c15{margin-left:499px;margin-top:25px;}
+#c16{margin-left:75px;margin-top:25px;}
+#c17{margin-left:225px;margin-top:25px;}
+#c18{margin-left:375px;margin-top:25px;}
+#c19{margin-left:525px;margin-top:25px;}
+#c20{margin-left:99px;margin-top:25px;}
+#c21{margin-left:299px;margin-top:25px;}
+#c22{margin-left:499px;margin-top:25px;}
