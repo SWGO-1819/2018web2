@@ -5,7 +5,7 @@ li {text-align: center;}
 header{width:1000px;height:100px;}
 #logoLogin{width:1000px;height:50px;}
 #mainLogo{float:left;}
-#mask{width:1000px;height:1200px;background-color:black;position:absolute;opacity: 0.8;z-index:1;display:none;z-index:3;}
+#mask{height:1200px;background-color:black;position:absolute;opacity: 0.8;z-index:1;display:none;z-index:3;}
 /*로그인페이지*/
 #loginPage{width:500px;height:500px;position:fixed;margin-top:100px;margin-left:250px;z-index:2;background-color:white;display:none;z-index:4;}
 .loginHeader{width:500px;height:50px;margin-bottom:30px;}
@@ -44,25 +44,27 @@ header{width:1000px;height:100px;}
 #dropMenu>ul>li>ul>li{width:auto;height:0px;overflow: hidden;}
 #dropMenu>ul>li:hover{height:50px;transition:.5s;background-color:#08298A;}
 #dropMenu>ul>li:hover a{transition:.5s;color:white;}
-#dropMenu>ul>li:hover ul li{height:50px;transition:.5s;background-color:#08298A;color:white;}
+#dropMenu>ul>li:hover ul li{height:50px;transition:.5s;color:black;background-color:white;}
+#dropMenu>ul>li:hover ul{border:1px solid #08298A;}
+#dropMenu>ul>li ul li:hover{color:#08298A;font-weight:bold;}
 #dropMenu>ul>li>a{color:black;width:100px;}
 
 #content{width:1000px;height:950px;}
-#mainSlide{width:1000px;height:500px;overflow:hidden;margin-top:10px;}
-#mainSlide > ul {width: 300%; height: 500px;}
+#mainSlide{width:1000px;height:500px;overflow:hidden;border:1px solid #08298A;}
+#mainSlide > ul {width:3000px; height: 500px;}
 #mainSlide > ul > li {width: 1000px; height: 500px; float: left;}
 #mainSlide > ul > li > img {width: 1000px; height: 500px; float : left;}
 
-#downContent{width:1000px;height:450px;float:left;margin-top:10px;}
-#noticeBox{width:670px;;height:190px;;background-color:white;margin:10px;float:left}
+#downContent{width:1000px;height:450px;float:left;margin-top:20px;}
+#noticeBox{width:670px;;height:190px;;background-color:white;margin-right:10px;float:left;margin-bottom:10px;}
 #noticeBox table{width:670px;}
 .title{width:670px;}
 #notice{width:100px;float:left;}
 #notice2{width:100px;float:left;}
-#notice a{color:#08298A;line-height:30px;}
-#notice2 a{color:black;line-height:30px;}
+#notice p{color:#08298A;line-height:30px;}
+#notice2 p{color:black;line-height:30px;}
 .title>td{font-size:12px;text-align:center;}
-#detailed a{color:black;}
+#detailed p{color:black;}
 .noticeContent td{font-size:14px;}
 .noticeContent2 td{font-size:14px;}
 #noticeBox th{height:30px;text-align: left;font-size:17px;}
@@ -75,7 +77,7 @@ header{width:1000px;height:100px;}
 .noticeContent2 td:last-child{width:150px;height:30px;text-align:center;}
 #detailed{width:100px;text-align:center;float:right;line-height:30px;}
 
-#imgContent{width:310px;height:400px;text-align:center;float:right;overflow:hidden;}
+#imgContent{width:310px;height:400px;text-align:center;float:right;overflow:hidden;border:1px solid #08298A;}
 #imgContent ul{width:310px;height:400px;}
 #imgContent li{width:310px;height:0px;position:relative;float:left;}
 #imgContent img{width:auto;height:400px;}
@@ -83,25 +85,25 @@ header{width:1000px;height:100px;}
 #dote_ul{width:60px;height:10px;z-index:2;position:relative;float:left;margin-top:-20px;}
 .dote{width:10px;height:10px;background-color:black;z-index:2;float:left;margin-left:10px;}
 
-#ss{width:300px;height:200px;float:right;line-height:50px;text-align:center;border:1px solid #D8D8D8;margin-right:10px;}
+#ss{width:300px;height:200px;float:right;line-height:50px;text-align:center;border:1px solid #D8D8D8;margin-right:20px;}
 #eat_notice{width:300px;height:50px;}
 #eat_notice ul{height:50px;}
 #eat_notice li:first-child{width:150px;float:left;font-weight:bold;}
 #eat_notice li:last-child a{width:50px;float:right;font-size:20px;font-weight:bold;color:#08298A;}
 #ss img{width:250px;height:125px;}
 
-#month_pp{width:360px;height:200px;float:left;margin-left:10px;border:1px solid #D8D8D8;}
+#month_pp{width:340px;height:200px;float:left;border:1px solid #D8D8D8;}
 #month_header{height:120px;}
-#month_header ul{height:120px;}
-#month{width:360px;height:50px;line-height:50px;}
-#day{font-size:70px;font-weight:bold;width:295px;height:70px;text-align:center;float:left;line-height:70px;color:#08298A;}
+#month_header ul{height:120px;margin-bottom:5px;}
+#month{width:340px;height:50px;line-height:50px;}
+#day{font-size:70px;font-weight:bold;width:270px;height:70px;text-align:center;float:left;line-height:70px;color:#08298A;}
 #day_left{font-size:30px;float:left;width:30px;height:70px;line-height:70px;}
 #day_left:hover{color:#08298A;}
 #day_right{font-size:30px;float:left;width:30px;height:70px;line-height:70px;}
 #day_right:hover{color:#08298A;}
-#month_header p{width:200px;height:20px;margin:0 auto;text-align:center;margin-top:10px;}
+#month_header p{width:340px;height:37px;text-align:center;border-top:1px solid #D8D8D8;line-height:37px;}
 
-footer{width:1348px;height:150px;background-color:#E6E6E6;}
+footer{height:150px;background-color:#E6E6E6;}
 #footerWrap{width:1000px;height:150px;padding-top:10px;margin:0 auto;}
 #footerWrap img{float:left;}
 #footerP{width:500px;height:42px;line-height:42px;background-color:white;text-align:center;float:left;margin-left:30px;}
