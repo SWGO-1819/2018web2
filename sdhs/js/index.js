@@ -10,7 +10,6 @@ var year= d.getFullYear();
 var day= d.getDate();
 $(document).ready(function () {
     var current = 0, max = $("#mainSlide > ul > li").length - 1, width = $("#mainSlide > ul > li").width();
-    console.log(max);
 
     $("#login").click(function () {
         $("#loginPage").fadeIn('fast');
@@ -25,17 +24,17 @@ $(document).ready(function () {
         $("#sign_upPage").fadeOut('fast');
         $("#mask").fadeOut('fast');
     })
-    $("#notice a").click(function () {
+    $("#notice p").click(function () {
         $("#noticeContent").css("height","100");
         $("#noticeContent2").css("height","0");
-        $("#notice a").css("color","#08298A");
-        $("#notice2 a").css("color","black");
+        $("#notice p").css("color","#08298A");
+        $("#notice2 p").css("color","black");
     })
-    $("#notice2 a").click(function () {
+    $("#notice2 p").click(function () {
         $("#noticeContent").css("height","0");
         $("#noticeContent2").css("height","100");
-        $("#notice a").css("color","black");
-        $("#notice2 a").css("color","#08298A");
+        $("#notice p").css("color","black");
+        $("#notice2 p").css("color","#08298A");
     })
     function next() {
         if(current!=max) {
@@ -86,9 +85,9 @@ $(document).ready(function () {
     setInterval(dote,3000);
 })
 function slide2() {
-    $("#imgContent li").eq(num1).animate({left:-310},0);
-    $("#imgContent li").eq(num1-1).animate({left:310},500);
-    $("#imgContent li").eq(num1).animate({left:0},500);
+    $("#imgContent li").eq(num1).animate({right:-310},0);
+    $("#imgContent li").eq(num1-1).animate({right:310},500);
+    $("#imgContent li").eq(num1).animate({right:0},500);
     num1++;
     if(num1>=3){
         num1=0;
