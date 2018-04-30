@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 <body>
 <div id="wrap">
-    <div id="mask"></div>
+   <div id="mask"></div>
     <header>
         <div id="loginPage">
-            <div class="loginHeader">
-                <h1>로그인</h1>
-                <img src="../image/x.png" class="exit" alt="exit">
-            </div>
-            <form action="">
+           <div class="loginHeader">
+               <h1>로그인</h1>
+               <img src="./image/x.png" class="exit" alt="exit">
+           </div>
+            <form action="#">
                 <dl>
                     <dt><label for="idSign_ok">아이디</label></dt>
                     <dd><input type="text" name="id" id="idSign_ok" placeholder="아이디 입력"></dd>
@@ -31,12 +31,12 @@
             </form>
         </div>
         <div id="sign_upPage">
-            <div class="loginHeader">
-                <h1>회원가입</h1>
-                <img src="../image/x.png" class="exit" alt="exit">
-            </div>
-            <form action="">
-                <dl>
+           <div class="loginHeader">
+               <h1>회원가입</h1>
+               <img src="./image/x.png" class="exit" alt="exit">
+           </div>
+            <form action="#">
+               <dl>
                     <dt><label for="name">이름</label></dt>
                     <dd><input type="text" name="pw" id="name" placeholder="이름 입력"></dd>
                 </dl>
@@ -73,9 +73,9 @@
                     </ul>
                 </div>
                 <div id="mainSuch">
-                    <form action="">
+                    <form action="#">
                         <input type="text" id="such" placeholder="검색">
-                        <input type="image" id="suchImage" src="http://www.sdh.hs.kr/design/template/template029/images/top_menu_05/header_top_btn_search.gif">
+                        <img id="suchImage" src="http://www.sdh.hs.kr/design/template/template029/images/top_menu_05/header_top_btn_search.gif" alt="돋보기">
                     </form>
                 </div>
             </div>
@@ -122,50 +122,50 @@
     <div id="content">
         <div id="mainSlide">
             <ul>
-                <li id="slideImg1"><img src="../image/test.jpg" alt="image1"></li>
-                <li id="slideImg2"><img src="../image/test1.jpg" alt="image2"></li>
-                <li id="slideImg3"><img src="../image/test2.jpg" alt="image3"></li>
+                <li id="slideImg1"><img src="./image/test.jpg" alt="image1"></li>
+                <li id="slideImg2"><img src="./image/test1.jpg" alt="image2"></li>
+                <li id="slideImg3"><img src="./image/test2.jpg" alt="image3"></li>
             </ul>
         </div>
         <div id="downContent">
             <div id="noticeBox">
                 <table>
                     <tr class="title">
-                        <th id="notice"><a href="#">공지사항</a></th>
-                        <th id="notice2"><a href="#">가정통신문</a></th>
-                        <td id="detailed"><a href="#">더보기▶</a></td>
+                        <th id="notice"><p>공지사항</p></th>
+                        <th id="notice2"><p>가정통신문</p></th>
+                        <td id="detailed"><p>더보기▶</p></td>
                     </tr>
                 </table>
                 <div id="noticeContent">
                     <table>
-                        <tr class="noticeContent">
-                            <td>제5회 교내 사장되기 대회</td>
-                            <td>2018-04-04</td>
-                        </tr>
-                        <tr class="noticeContent">
-                            <td>2018년도 국내외 취업상담사 채용</td>
-                            <td>2018-04-04</td>
-                        </tr>
-                        <tr class="noticeContent">
-                            <td>학부모총회 행사진행</td>
-                            <td>2018-03-23</td>
-                        </tr>
+                    <tr class="noticeContent">
+                        <td>제5회 교내 사장되기 대회</td>
+                        <td>2018-04-04</td>
+                    </tr>
+                    <tr class="noticeContent">
+                        <td>2018년도 국내외 취업상담사 채용</td>
+                        <td>2018-04-04</td>
+                    </tr>
+                    <tr class="noticeContent">
+                        <td>학부모총회 행사진행</td>
+                        <td>2018-03-23</td>
+                    </tr>
                     </table>
                 </div>
                 <div id="noticeContent2">
                     <table>
-                        <tr class="noticeContent2">
-                            <td>취업(진로)캠프 실시안내</td>
-                            <td>2018-04-11ㅇ</td>
-                        </tr>
-                        <tr class="noticeContent2">
-                            <td>취업(진로)캠프참가 경비 인출안내</td>
-                            <td>2018-04-06</td>
-                        </tr>
-                        <tr class="noticeContent2">
-                            <td>취업(진로)캠프 안전보험 가입 개인정보 동의 안내</td>
-                            <td>2018-04-06</td>
-                        </tr>
+                    <tr class="noticeContent2">
+                        <td>취업(진로)캠프 실시안내</td>
+                        <td>2018-04-11</td>
+                    </tr>
+                    <tr class="noticeContent2">
+                        <td>취업(진로)캠프참가 경비 인출안내</td>
+                        <td>2018-04-06</td>
+                    </tr>
+                    <tr class="noticeContent2">
+                        <td>취업(진로)캠프 안전보험 가입 개인정보 동의 안내</td>
+                        <td>2018-04-06</td>
+                    </tr>
                     </table>
                 </div>
             </div>
@@ -198,6 +198,7 @@
                         <li id="day">##</li>
                         <li id="day_right">▶</li>
                     </ul>
+                    <p>오늘 일정은 없습니다.</p>
                     <p>오늘 일정은 없습니다.</p>
                 </div>
             </div>
